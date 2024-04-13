@@ -1,0 +1,53 @@
+.banner-container {
+  position: relative;
+  background-color: #007077;
+  top: 30vh;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 80%;
+  min-height: 50vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .banner-container {
+    width: 96%;
+    padding: 6px;
+    top: 15px;
+  }
+}
+.banner-container .banner-content {
+  flex: 1 1 auto;
+  text-align: center;
+  background-color: transparent;
+  width: 50%;
+  padding: 6px;
+  min-width: 250px;
+  height: 100%;
+}
+.banner-container .banner-content h1 {
+  font-size: 1.5rem;
+  color: #85D178;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .banner-container .banner-content {
+    font-size: 1rem;
+  }
+}
+.banner-container .banner-button {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}/*# sourceMappingURL=banner.css.map */

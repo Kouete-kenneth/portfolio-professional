@@ -1,0 +1,22 @@
+.home {
+  overflow: hidden auto !important;
+  max-height: 100vh !important;
+  width: 100.5%;
+  padding-bottom: 200px;
+}
+.home::-webkit-scrollbar {
+  background-color: #031323;
+  border-radius: 50px;
+}
+.home::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 64, 87, 0.5);
+  border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  .home {
+    margin-left: 0px !important;
+  }
+  .home::-webkit-scrollbar {
+    display: none;
+  }
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,51 @@
+@import '../../../Themes/global-theme.scss';
+.banner-container {
+    position: relative;
+    background-color:$teal-blue;
+    top: 30vh;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 80%;
+    min-height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width:768px){
+        width: 96%;
+        padding: 6px;
+        top: 15px;
+    }
+    .banner-content {
+        flex: 1 1 auto;
+        text-align: center;
+        background-color:transparent;
+        width: 50%;
+        padding: 6px;
+        min-width: 250px;
+        height: 100%;
+        h1 {
+            font-size: 1.5rem;
+            color: $mint-green;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        @media screen and (max-width:768px) {
+            font-size: 1rem;
+        }
+    }
+    .banner-button {
+        flex: 1 1 auto;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        background-color:transparent;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+
+    }
+}

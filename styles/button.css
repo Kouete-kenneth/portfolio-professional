@@ -1,0 +1,9 @@
+.custom-button {
+  background-color: #F9F871;
+  color: #031323;
+  font-weight: bold;
+  cursor: pointer;
+}
+.custom-button:hover {
+  background-color: #85D178;
+}/*# sourceMappingURL=button.css.map */

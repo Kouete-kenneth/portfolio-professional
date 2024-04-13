@@ -1,0 +1,27 @@
+.tech-sorcerer {
+  padding: 4vh 4vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 1vh;
+  bottom: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.tech-sorcerer .title-wrapper {
+  text-align: center;
+}
+.tech-sorcerer .title-wrapper .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #F9F871;
+  margin-bottom: 10px;
+}
+.tech-sorcerer .title-wrapper p {
+  color: #85D178;
+}
+.tech-sorcerer .content-wrapper .description {
+  font-size: 1rem;
+  color: #85D178;
+  line-height: 1.5;
+}/*# sourceMappingURL=home-about.css.map */

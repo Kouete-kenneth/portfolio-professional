@@ -1,0 +1,10 @@
+@import '../../Themes/global-theme.scss';
+.custom-button{
+    background-color:$laser-lemon ;
+    color: $rich-black-fogra-39;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover{
+        background-color: $mint-green;
+    }
+}

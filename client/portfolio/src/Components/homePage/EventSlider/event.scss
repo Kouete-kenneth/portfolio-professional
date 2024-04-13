@@ -1,0 +1,50 @@
+@import '../../../Themes/global-theme.scss';
+.event-slider {
+    background-color:   rgba(162, 167, 171, 0.1) ;
+    width: 50%;
+    max-height: 100%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    border-radius: 1rem;
+    @media screen and (max-width: 768px) {
+      padding: 1rem;
+      top: 10vh;
+      width: 100%;
+    }
+    .each-slide {
+      position: relative;
+      max-height: 550px;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        border-radius: 8px;
+      
+      }
+  
+      .event-details {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        font-size: 0.7em;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: $mint-green;
+        padding: 10px;
+        border-radius: 4px;
+        @media screen and (max-width: 768px) {
+          font-size: 0.5rem;
+          bottom: 0.7rem;
+          padding: 5px;
+          max-height: 40%;
+          line-height: 1em;
+          // width: 70%;
+        }
+      }
+    }
+  }
+  

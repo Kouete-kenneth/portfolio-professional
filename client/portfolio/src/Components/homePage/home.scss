@@ -1,0 +1,23 @@
+@import '../../Themes/global-theme.scss'; 
+ .home{
+   
+    overflow:hidden auto !important;
+    max-height:100vh !important;
+    width: 100.5%;
+    padding-bottom: 200px;
+    &::-webkit-scrollbar{
+      background-color: $rich-black-fogra-39;
+      border-radius: 50px;
+    }
+    &::-webkit-scrollbar-thumb{
+      background-color:$oxford-blue_5;
+      border-radius: 50px;
+    }
+    @media screen and (max-width:768px) {
+      margin-left:0px !important;
+      &::-webkit-scrollbar{
+         display:none;
+      }
+    }
+  
+ }

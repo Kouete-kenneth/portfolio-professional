@@ -1,0 +1,14 @@
+@import '../../Themes/global-theme.scss';
+.main-layout{
+    background-color: $oxford-blue;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: 1500px;
+    min-height: 100vh;
+}
