@@ -1,7 +1,8 @@
 .banner-container {
   position: relative;
   background-color: #007077;
-  top: 30vh;
+  top: 5vh;
+  overflow-x: hidden;
   color: white;
   padding: 20px 40px;
   border-radius: 10px;
@@ -17,7 +18,6 @@
   .banner-container {
     width: 96%;
     padding: 6px;
-    top: 15px;
   }
 }
 .banner-container .banner-content {
@@ -35,8 +35,13 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 @media screen and (max-width: 768px) {
-  .banner-container .banner-content {
+  .banner-container .banner-content h1 {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-container .banner-content {
+    padding: 3vh 10vw;
   }
 }
 .banner-container .banner-button {
@@ -50,4 +55,15 @@
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+}
+.banner-container .banner-button .banner-btn {
+  display: block;
+  width: 10rem;
+  height: 5rem;
+}
+@media screen and (max-width: 768px) {
+  .banner-container .banner-button .banner-btn {
+    width: 8rem;
+    height: 4rem;
+  }
 }/*# sourceMappingURL=banner.css.map */

@@ -1,8 +1,8 @@
 .home {
+  transition: all 1s ease-out;
   overflow: hidden auto !important;
   max-height: 100vh !important;
   width: 100.5%;
-  padding-bottom: 200px;
 }
 .home::-webkit-scrollbar {
   background-color: #031323;

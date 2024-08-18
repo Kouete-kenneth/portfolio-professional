@@ -1,7 +1,7 @@
 @import '../../../Themes/global-theme.scss';
 .hero {
     position: relative;
-    width: 109%;
+    width: 100%;
     height:100vh;
     
     overflow: hidden;
@@ -31,17 +31,23 @@
             font-size: 3rem;
             margin-bottom: 1rem;
             color: $strong-cyan;
+            @media screen and (max-width: 768px){
+                font-size: 1.8rem;
+            }
         }
 
         p {
             font-size: 1.2rem;
             margin-bottom: 2rem;
             color: $mint-green;
+            @media screen and (max-width: 768px){
+                font-size:0.9rem;
+            }
         
         }
 
         .btn {
-            width: 8.5rem;
+            width: 11.5rem;
             height: 4.3rem;
             display: inline-flex;
             align-items: center;
@@ -50,8 +56,11 @@
             background-color: transparent;
             border: 2px double $laser-lemon;
             border-radius: 50px;
-
-            transition: background-color 0.3s ease;
+            transition: background-color 0.4s ease;
+            @media screen and (max-width: 768px){
+                width: 8rem;
+                height: 2.5rem;
+            }
             &:hover {
                 opacity: 0.8;
                 cursor: pointer;
@@ -66,8 +75,13 @@
                 text-decoration: none;
                 color: $laser-lemon;
                 border: none;
+                font-size: 1.5rem;
                 font-weight: 800;
                 
+                @media screen and (max-width: 768px){
+                    font-weight: 600;
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -104,7 +118,7 @@
         background-size: cover;
         opacity: 0.2;
         @media screen and (max-width: 768px)    {
-                width: 40%;  
+                width: 50%;  
         }
 
     }

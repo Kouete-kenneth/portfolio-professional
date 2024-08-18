@@ -15,7 +15,7 @@ const AnimeVideo = () => {
             <div className="in-touch-content">
                 <h1>Kenneth Is My Name</h1>
                 <a className='in-touch-btn'>
-                    <Button width="10rem" height="5rem" BorderRadius="50px" text="Click For More"/>
+                    <Button width="100%" height="100%" BorderRadius="50px" text="Click For More"/>
                 </a>
             </div>
         </div>

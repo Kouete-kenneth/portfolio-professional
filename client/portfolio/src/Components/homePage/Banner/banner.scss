@@ -2,7 +2,8 @@
 .banner-container {
     position: relative;
     background-color:$teal-blue;
-    top: 30vh;
+    top: 5vh;
+    overflow-x: hidden;
     color: white;
     padding: 20px 40px;
     border-radius: 10px;
@@ -16,7 +17,6 @@
     @media screen and (max-width:768px){
         width: 96%;
         padding: 6px;
-        top: 15px;
     }
     .banner-content {
         flex: 1 1 auto;
@@ -30,9 +30,12 @@
             font-size: 1.5rem;
             color: $mint-green;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            @media screen and (max-width:768px) {
+                font-size: 1rem;
+            }
         }
         @media screen and (max-width:768px) {
-            font-size: 1rem;
+            padding:3vh 10vw;
         }
     }
     .banner-button {
@@ -46,6 +49,14 @@
         color: white;
         padding: 10px 20px;
         border-radius: 5px;
-
+        .banner-btn{
+            display: block;
+            width: 10rem;
+            height: 5rem;
+            @media screen and (max-width:768px) {
+                width: 8rem;
+                height: 4rem;
+            }
+        }
     }
 }

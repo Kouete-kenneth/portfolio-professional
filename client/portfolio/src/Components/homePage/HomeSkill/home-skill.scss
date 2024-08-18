@@ -5,7 +5,7 @@
     padding: 4vh 4vw;
 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    top: 3vh;
+    // top: 3vh;
     bottom: 4vh;
     &::before{
       content: '';
@@ -19,22 +19,28 @@
       z-index: -1;
     }
     .main-title {
-      font-size: 36px;
-      color: $mint-green;
+      font-size: 2.5rem;
+      color: $laser-lemon;
       margin-bottom: 10px;
       text-align: center;
+      @media screen and (max-width: 768px){
+        font-size: 1rem;
+    }
     }
   
     .comment {
-      font-size: 14px;
+      font-size: 1rem;
       color:$teal-blue;
       text-align: center;
       margin-bottom: 20px;
+      @media screen and (max-width: 768px){
+        font-size: 0.6rem;
+       }
     }
   
     .skills-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 0.5fr);
       gap: 20px;
       flex-wrap: wrap;
       @media screen and (max-width:900px) {
@@ -48,12 +54,11 @@
   
     .skill-card {
      
-      padding: 20px;
+      padding: 1rem;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
       transition: transform 0.2s ease;
       animation: pulse 3s infinite;
-      min-width: 250px;
       &:hover {
         transform: translateY(-4px);
       }
@@ -61,12 +66,18 @@
       .skill-name {
         font-weight: bold;
         color: $mint-green;
+        @media screen and (max-width:768px) {
+           font-size: 1.1rem;
+        }
       }
   
       .skill-description {
         color: $teal-blue;
-        font-size: 14px;
+        font-size: 1rem;
         line-height: 1.4;
+        @media screen and (max-width:768px) {
+          font-size: 0.6rem;
+       }
       }
     }
     @keyframes pulse {

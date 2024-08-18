@@ -1,5 +1,6 @@
 @import '../../Themes/global-theme.scss';
 .custom-button{
+    transition: all 0.4s ease-out;
     background-color:$laser-lemon ;
     color: $rich-black-fogra-39;
     font-weight: bold;
